@@ -1,0 +1,10 @@
+row {
+    color: #17408B;
+}
+
+.searchResults {
+    background-color: #ffffff;
+    margin-top: 1em;
+    padding:20px 10px;
+    margin-bottom: 1em;
+}

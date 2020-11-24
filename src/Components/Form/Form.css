@@ -1,0 +1,24 @@
+form {
+    margin-top: 1em;
+    padding:20px 10px;
+    background-color: #ffffff;
+    border-color: 1px solid #c9082a;
+
+}
+h2 {
+
+    color: #23395d;
+}
+
+form > input {
+    color: #17408B;
+}
+
+.season {
+    margin: 0 auto; 
+}
+
+
+input[type="text"]::placeholder, input[type="text"]{
+    text-align: center;
+}
