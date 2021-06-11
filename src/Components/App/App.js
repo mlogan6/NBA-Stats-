@@ -48,18 +48,14 @@ class App extends React.Component {
     const replace = event.target.value.split(" ").join("_"); 
     if(replace.length > 0) {
         this.setState({playerName: replace})
-     } //else {
-    //     alert("Please type players name");
-    // }
+     }
 }
 
   handleChangeTwo = (event) => {
     const replace = event.target.value.split(" ").join("_"); 
     if(replace.length > 0) {
         this.setState({secondPlayer: replace})
-    } //else {
-    //     alert("Please type players name");
-    // }
+    }
   }
 
   handleSeasonChange = (event) => {
