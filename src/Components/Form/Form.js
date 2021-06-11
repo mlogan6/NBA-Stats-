@@ -19,13 +19,11 @@ class Form extends React.Component {
                     <br />
                     <div className="form-row">
                         <div className="form-group col-md-6">
-                            {/* <label className="text-center">First Player</label> */}
                             <input type="text" className="form-control" 
                             placeholder="Enter a player's name.."  
                             onChange={this.props.userChange} />
                         </div>
                         <div className="form-group col-md-6">
-                            {/* <label className="text-center">Second Player</label> */}
                             <input type="text" className="form-control" 
                             placeholder="Enter a player's name.." 
                             onChange={this.props.userChangeTwo}
